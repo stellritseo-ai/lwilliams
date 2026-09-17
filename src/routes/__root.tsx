@@ -77,13 +77,42 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1, maximum-scale=5" },
-      { title: "L. Williams Co. & Service" },
-      { name: "description", content: "Professional handyman and property repair services in Dallas, Texas." },
+      { name: "theme-color", content: "#0F172A" },
+      { title: "L. Williams Co. & Service | Dallas Handyman, Painting & Home Repairs" },
+      {
+        name: "description",
+        content:
+          "Over 25+ years of trusted experience & 2,000+ completed projects in Dallas, TX. Expert handyman, painting, drywall, tile, plumbing, and electrical repair services. 24/7 emergency dispatch. Call (214) 606-4631.",
+      },
+      {
+        name: "keywords",
+        content:
+          "Dallas handyman, handyman services Dallas TX, house painting Dallas, drywall repair Dallas, tile installation Dallas, plumbing repair, electrical repair, 24/7 emergency handyman, home improvements Dallas, L Williams Services",
+      },
       { name: "author", content: "L. Williams Co. & Service" },
-      { property: "og:title", content: "L. Williams Co. & Service" },
-      { property: "og:description", content: "Professional handyman and property repair services in Dallas, Texas." },
+      { name: "robots", content: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" },
+      { name: "geo.region", content: "US-TX" },
+      { name: "geo.placename", content: "Dallas, Texas" },
+      { name: "geo.position", content: "32.7767;-96.7970" },
+      { name: "ICBM", content: "32.7767, -96.7970" },
+      { property: "og:site_name", content: "L. Williams Co. & Service" },
       { property: "og:type", content: "website" },
+      { property: "og:locale", content: "en_US" },
+      { property: "og:title", content: "L. Williams Co. & Service | Dallas Handyman, Painting & Home Repairs" },
+      {
+        property: "og:description",
+        content:
+          "Dallas' trusted handyman and property repair specialists. 25+ years experience, 2,000+ completed projects, 24/7 emergency services. Call (214) 606-4631.",
+      },
+      { property: "og:image", content: "/images/hero_slide_1.jpg" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "L. Williams Co. & Service | Dallas Handyman & Repairs" },
+      {
+        name: "twitter:description",
+        content:
+          "Premier handyman, house painting, drywall, tile, and property repairs in Dallas, TX. 25+ years of craft excellence. Call (214) 606-4631.",
+      },
+      { name: "twitter:image", content: "/images/hero_slide_1.jpg" },
     ],
     links: [
       {
