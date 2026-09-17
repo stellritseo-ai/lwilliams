@@ -40,26 +40,28 @@ export const Route = createFileRoute("/")({
           "High-end residential and commercial handyman craftsmanship in Dallas, Texas. 25+ years experience, 2000+ completed projects, 24/7 emergency service available.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/" },
-      { property: "og:image", content: "/images/hero_slide_1.jpg" },
+      { property: "og:url", content: "https://lwilliamsservice.com/" },
+      { property: "og:image", content: "https://lwilliamsservice.com/images/hero_slide_1.jpg" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "L. Williams Co. & Service | Dallas Handyman & Repairs" },
       {
         name: "twitter:description",
         content: "Professional craftsmanship, house painting, drywall, tile, and home repairs in Dallas, TX. 25+ years experience.",
       },
-      { name: "twitter:image", content: "/images/hero_slide_1.jpg" },
+      { name: "twitter:image", content: "https://lwilliamsservice.com/images/hero_slide_1.jpg" },
     ],
-    links: [{ rel: "canonical", href: "/" }],
+    links: [{ rel: "canonical", href: "https://lwilliamsservice.com/" }],
     scripts: [
       {
         type: "application/ld+json",
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "HomeAndConstructionBusiness",
+          "@id": "https://lwilliamsservice.com/#organization",
+          url: "https://lwilliamsservice.com",
           name: "L. Williams Co. & Service",
           alternateName: "L Williams Services",
-          image: "/images/hero_slide_1.jpg",
+          image: "https://lwilliamsservice.com/images/hero_slide_1.jpg",
           telephone: "(214) 606-4631",
           email: "lwilliamsservices28@gmail.com",
           address: {

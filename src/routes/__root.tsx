@@ -104,7 +104,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "Dallas' trusted handyman and property repair specialists. 25+ years experience, 2,000+ completed projects, 24/7 emergency services. Call (214) 606-4631.",
       },
-      { property: "og:image", content: "/images/hero_slide_1.jpg" },
+      { property: "og:image", content: "https://lwilliamsservice.com/images/hero_slide_1.jpg" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "L. Williams Co. & Service | Dallas Handyman & Repairs" },
       {
@@ -112,7 +112,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "Premier handyman, house painting, drywall, tile, and property repairs in Dallas, TX. 25+ years of craft excellence. Call (214) 606-4631.",
       },
-      { name: "twitter:image", content: "/images/hero_slide_1.jpg" },
+      { name: "twitter:image", content: "https://lwilliamsservice.com/images/hero_slide_1.jpg" },
     ],
     links: [
       {
